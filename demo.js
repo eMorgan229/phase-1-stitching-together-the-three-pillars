@@ -10,11 +10,11 @@ const colorStates = {
   "": "red"
 };
 
-// STEP 1: The line of code below is what lets JavaScript find the elements that
-// we want to make clickable. Without JavaScript, clicking on these heart shapes
+//  STEP 1: The line of code below is what lets JavaScript find the elements that
+//  we want to make clickable. Without JavaScript, clicking on these heart shapes
 // does nothing. Uncomment the code and refresh the demo page. 
 
-// const articleHearts = document.querySelectorAll(".like-glyph");
+ const articleHearts = document.querySelectorAll(".like-glyph");
 
 function likeCallback(e) {
   const heart = e.target;
